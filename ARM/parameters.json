@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "USERYOUROWN"
+        },
+        "name": {
+            "value": "azfntimertestcronjobsyntax"
+        },
+        "location": {
+            "value": "Australia East"
+        },
+        "use32BitWorkerProcess": {
+            "value": true
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "storageAccountName": {
+            "value": "azfntimertestcronjo871d"
+        },
+        "netFrameworkVersion": {
+            "value": "v6.0"
+        },
+        "sku": {
+            "value": "Dynamic"
+        },
+        "skuCode": {
+            "value": "Y1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "repoUrl": {
+            "value": "https://github.com/OzBob/azfninproctimer"
+        },
+        "branch": {
+            "value": "main"
+        },
+        "hostingPlanName": {
+            "value": "ASP-azfntimertestcronjobsyntaxgroup-b85f"
+        },
+        "serverFarmResourceGroup": {
+            "value": "azfntimertestcronjobsyntax_group"
+        },
+        "alwaysOn": {
+            "value": false
+        }
+    }
+}
